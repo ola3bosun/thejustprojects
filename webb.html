@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+    <style>
+        body {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400 }
+
+        .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 120px;
+        background: #f1f5fe;}
+
+        .logo-container {
+        width: 260px;
+        height: 55px;}
+
+        .logo-container img {
+        width: 100%;
+        height: 100%; }
+
+        .nav-menu {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;}
+
+        .nav-links {
+        font-family: "Halant", serif;
+        text-decoration: none;
+        color: #000;
+        font-family: Halant;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;}
+
+        .nav-link1 {
+        color: #000;
+        text-decoration: 1px underline #155eef;
+        }
+
+        .nav-link2{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .nav-link3 {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 16px;
+        color: #155eef;
+        border: 1px solid #155eef;
+        border-radius: 8px;}
+
+        .section--dark {
+        padding: 70px 120px 0;
+        background: #000;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px; }
+
+        .left-sec {
+        max-width: 800px;}
+
+        .section--dark .top-paragraph {
+        font-family: "Halant", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #a3a3a3;
+        margin-bottom: 5px;
+        margin-top: 10px;}
+
+        .section--dark .secondary-heading {
+        font-family: "Halant", serif;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67px;
+        color: #fff;
+        margin-bottom: 20px; }
+
+        .section--dark .bottom-paragraph {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #a3a3a3;
+        margin-bottom: 30px; }
+
+        .dark-image-container {
+        width: 440px;
+        min-width: 440px;
+        height: 480px;
+        margin-left: auto;}
+
+        .dark-image-container img {
+        width: 100%;
+        height: 100%;}
+
+        .btn {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        text-decoration: none;}
+
+        .btn--blue {
+        color: #fff;
+        background: #155eef;}
+
+        .btn--width {
+        width: 160px;
+        display: inline-block;
+        text-align: center; }
+
+        .btn--white {
+        color: #155eef;
+        background: #fff;
+        border: 1px solid #155eef; }
+
+        .section--light {
+        padding: 70px 120px;
+        background: #f5f8fe;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px; }
+
+        .right-sec {
+        max-width: 600px; }
+
+        .section--light .secondary-heading {
+        font-family: "Halant", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 50px;
+        margin-bottom: 10px; }
+
+        .section--light .paragraph {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        margin-bottom: 40px;
+        text-justify: inter-word;}
+
+        .dark-image-container {
+        width: 440px;
+        height: 480px;}
+
+        .dark-image-container img {
+        width: 100%;
+        height: 100%;}
+
+        .btn-box {
+        display: flex;
+        gap: 20px;
+        align-items: center;}
+
+        .footer {
+        padding: 16px 120px;
+        background: #080808;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;}
+
+        .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;}
+
+        .footer-text {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        color: #fff;} 
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-blue.svg" alt="jplogo" />
+      </div>
+      <nav class="nav-links">
+        <ul class="nav-menu">
+          <li class="nav-list">
+            <a href="#" class="nav-link1">HOME</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link2">ABOUT</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link3">Hire Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <pagebody>
+      <section class="section--dark">
+        <div class="left-sec">
+          <p class="top-paragraph">I'm</p>
+          <h2 class="secondary-heading">Anthony Dolphin,</h2>
+          <p class="bottom-paragraph">
+            A senior developer with expertise in coming up with both rational
+            and creative solutions to challenging web issues.
+          </p>
+          <div><a href="#" class="btn btn--blue">See My Projects</a></div>
+        </div>
+
+        <div class="dark-image-container">
+          <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/images/dark-pic.png" alt="dark-pic" />
+        </div>
+      </section>
+
+      <section class="section--light">
+        <div class="light-image-container">
+          <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/images/light-pic.png" alt="light-pic" />
+        </div>
+
+        <div class="right-sec">
+          <h2 class="secondary-heading">Anthony Dolphin,</h2>
+          <p class="paragraph">
+            My name is Anthony Dolphin Dave, I am an engineering student and
+            currently work as a full stack developer. I worked as a product
+            designer during my high school vacation. I love to assist people in
+            learning Tech skills.
+          </p>
+          <div class="btn-box">
+            <div><a href="#" class="btn btn--blue btn--width">Hire Me</a></div>
+
+            <div><a href="#" class="btn btn--white">See My Resume</a></div>
+          </div>
+        </div>
+      </section>
+    </pagebody>
+
+    <footer class="footer">
+      <div class="logo-container">
+        <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-white.svg" alt="jplogo" />
+      </div>
+      <div class="footer-socials">
+        <div>
+          <a href=""><img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/facebook.svg" alt="facebook" /></a>
+        </div>
+        <div>
+          <a href=""><img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/portfolio.html" alt="twitter" /></a>
+        </div>
+        <div>
+          <a href=""><img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/instagram.svg" alt="instagram" /></a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-text">@2023 ANTHONY DOLPHIN</p>
+      </div>
+    </footer>
+  </body>
+</html>
