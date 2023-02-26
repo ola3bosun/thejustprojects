@@ -1,327 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
     <style>
-            *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-
-    .nav-bar-text{
-        display: flex;
-        color: #000;
-    }
-
-    .nav-bar{
-        display: flex;
-        text-decoration: none;
-    }
-
-    header{
-        height: 70px;
-        background-color:#F1F5FE;
-    }
-
-    .jp-image-blue{
-        height: 36px;
-        width: 1512px;
-        border-radius: 0px;
-        padding: 16px 120px 16px 50px;
-    }
-
-    .nav-link{
-        display: flex;
-        text-decoration: none;
-        color: #000;
-        align-items: center;
-    }
-
-    .link1{
-        color: #000;
-        margin-right: 150px;
-        text-decoration: underline solid 1px;
-        font-family: 'Halant', serif;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 24px;
-        margin-top: 32px;
-    }
-
-    .link2{
-        color: #000;
-        margin-right: 150px;
-        text-decoration: none #000;
-        font-family: 'Halant', serif;
-        font-size: 24px;
-        line-height: 24px;
-        font-weight: 500;
-        margin-top: 32px;
-    }
-
-    .link3{
-        margin-right: 120px;
-        margin-top: 22px;
+        body {
         font-family: "Manrope", sans-serif;
         font-size: 16px;
-        font-weight: 700;
-        padding: 8px 8px;
-        color: #155eef;
-        border:1px solid #155eef;
-        border-radius: 8px;
-        white-space: nowrap
-    }
+        line-height: 1.2;
+        font-weight: 400 }
 
-    ul{
-        list-style: none;
-        color: #000;
-    }
-
-    .main-body-dark{
-        height: 450px;
-        width: 100%;
-        background-color: #000;
-        display: flex;
-        position: relative;
-    }
-
-    .iam{
-        font-family:'Halant', serif;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 48px;
-        letter-spacing: 0.5px;
-        text-align: left;
-        color: #B8B8B8;
-    }
-
-    .name{
-        font-family:'Halant', serif;
-        font-weight:600;
-        font-size:56px;
-        line-height: 67.2px;
-        color: #F5F8FE;
-    }
-
-    .what{
-        color:#A3A3A3;
-        font-family: 'Manrope', sans-serif;
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 48px;
-        letter-spacing: 0.5px;
-        text-align: left;
-        margin-bottom: 30px;
-    }
-
-    .dark-text{
-        padding-left: 50px;
-        margin-top: 100px;
-    }
-
-    .dark-portrait{
-        width: 440px;
-        height: 480px;
-        object-fit: cover;
-        position: absolute;
-        top: 45px;
-    }
-
-    .dark-portrait-space{
-        width: 440px;
-        min-width: 440px;
-        height: 480px;
-        margin-left: auto;
-        object-fit: cover;
-    }
-
-    .main-body-white{
-        display: flex;
-        height: 460px;
-    }
-
-    .light-self-description{
-        font-family: 'Manrope', sans-serif;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        text-align: justify;
-        line-height: 28px;
-        height: 220px;
-        margin-top: 20px;
-    }
-
-    .aboutme{
-        font-size: 32px;
-        font-family: 'Halant', serif; 
-        font-weight: 600;
-    }
-
-    .light-portrait-space{
-        height: 374px;
-        width: 516px;
-        margin-left: 50px;
-        margin-top: 32px;
-        border-radius: 0px;
-    }
-
-    .light-text-container{
-        margin-left: 80px;
-        margin-top: 32px;
-        margin-right: 50px;
-    }
-
-    .footer{
-        height: 120px;
-        padding: 16px 50px;
-        background: #080808;
+        .header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
+        padding: 16px 120px;
+        background: #f1f5fe;}
 
-    .footer-socials{
+        .logo-container {
+        width: 260px;
+        height: 55px;}
+
+        .logo-container img {
+        width: 100%;
+        height: 100%; }
+
+        .nav-menu {
+        list-style: none;
         display: flex;
-        align-content: center;
-        padding-right: 10px;
-    }
+        align-items: center;
+        justify-content: center;
+        gap: 100px;}
 
-    .footer-text{
-        font-family: Manrope;
+        .nav-links {
+        font-family: "Halant", serif;
+        text-decoration: none;
+        color: #000;
+        font-family: Halant;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;}
+
+        .nav-link1 {
+        color: #000;
+        text-decoration: 1px underline #155eef;
+        }
+
+        .nav-link2{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .nav-link3 {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 16px;
+        color: #155eef;
+        border: 1px solid #155eef;
+        border-radius: 8px;}
+
+        .section--dark {
+        padding: 70px 120px 0;
+        background: #000;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px; }
+
+        .left-sec {
+        max-width: 800px;}
+
+        .section--dark .top-paragraph {
+        font-family: "Halant", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #a3a3a3;
+        margin-bottom: 5px;
+        margin-top: 10px;}
+
+        .section--dark .secondary-heading {
+        font-family: "Halant", serif;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 67px;
+        color: #fff;
+        margin-bottom: 20px; }
+
+        .section--dark .bottom-paragraph {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #a3a3a3;
+        margin-bottom: 30px; }
+
+        .dark-image-container {
+        width: 440px;
+        min-width: 440px;
+        height: 480px;
+        margin-left: auto;}
+
+        .dark-image-container img {
+        width: 100%;
+        height: 100%;}
+
+        .btn {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        text-decoration: none;}
+
+        .btn--blue {
+        color: #fff;
+        background: #155eef;}
+
+        .btn--width {
+        width: 160px;
+        display: inline-block;
+        text-align: center; }
+
+        .btn--white {
+        color: #155eef;
+        background: #fff;
+        border: 1px solid #155eef; }
+
+        .section--light {
+        padding: 70px 120px;
+        background: #f5f8fe;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px; }
+
+        .right-sec {
+        max-width: 600px; }
+
+        .section--light .secondary-heading {
+        font-family: "Halant", serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 50px;
+        margin-bottom: 10px; }
+
+        .section--light .paragraph {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+        margin-bottom: 40px;
+        text-justify: inter-word;}
+
+        .dark-image-container {
+        width: 440px;
+        height: 480px;}
+
+        .dark-image-container img {
+        width: 100%;
+        height: 100%;}
+
+        .btn-box {
+        display: flex;
+        gap: 20px;
+        align-items: center;}
+
+        .footer {
+        padding: 16px 120px;
+        background: #080808;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;}
+
+        .footer-socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;}
+
+        .footer-text {
         font-size: 24px;
         font-weight: 500;
         line-height: 36px;
         letter-spacing: 0.5px;
-        text-align: left;
-        color:#FFFFFF;
-    }
-
-    .blue-buttons{
-         font-family:  'Manrope', sans-serif;
-        background-color: #155EEF;
-        color: #fff;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        padding: 10px 16px;
-        border-radius: 8px;
-        text-decoration: none;
-        margin-top: 24px;
-    }
-
-    .white-buttons{
-        font-family:  'Manrope', sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        padding: 10px 16px;
-        border-radius: 8px;
-        text-decoration: none;
-        border: solid 1px #155EEF;
-        margin-left: 12px;
-    }
-
-    .light-button-box{
-        display: flex;
-        margin-top: 18px;
-}
-        
-        .fb{
-    margin-right: 10px;
-}
-
-.tw{
-    margin-right: 11px;
-    margin-top: 5px;
-    
-}
+        color: #fff;} 
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600;700&family=Manrope:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="nav-bar">
-        <div class="jp-image-blue">
-            <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-blue.svg" alt="jplogo">
-        </div>
-       <nav class="nav-links">
-        <ul class="nav-link">
-            <li class="link1">
-                <a href="#">HOME</a>
-            </li>
-            <li class="link2">
-                <a href="#">ABOUT</a>
-            </li>
-            <li class="link3">
-                <a href="#">Hire Me</a>
-            </li>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-blue.svg" alt="jplogo" />
+      </div>
+      <nav class="nav-links">
+        <ul class="nav-menu">
+          <li class="nav-list">
+            <a href="#" class="nav-link1">HOME</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link2">ABOUT</a>
+          </li>
+          <li class="nav-list">
+            <a href="#" class="nav-link3">Hire Me</a>
+          </li>
         </ul>
-       </nav>
-    </div>
-  </header>
-  <div class="main-body-dark">
-        <div class="dark-text">
-            <div class="self-description">
-                <p class="iam">I'm</p>
-                <p class="name">Anthony Dolphin</p>
-                <p class="what">A senior developer with expertise in coming up with both rational and creative solutions to challenging web issues. </p>
-                <div>
-                    <a href="#" class="blue-buttons">See My Projects</a>
-                </div>
-            </div>
-        </div>
-        <div class="dark-portrait-space">
-            <img class="dark-portrait" src="https://s3-alpha-sig.figma.com/img/b52f/787a/3cd1fc0547676cd85c43a25c31461ffd?Expires=1678060800&Signature=H~5L2MhQ4cogG6xx0JVNWv9F8AFSoZYrETVUGfHszUbRe6XlEnGybgi9vJj1JoUdz6L0xAhFDh5-NoZcvHA~YesbsZiiht8oDZFshvoFQbAcdBoyFbA4x~NSMf12FTJKZk1dKQ8ereRGiMO5emDL6btTt7kulFeEp0qToseLS7eseLnsPRE9csfiKY4WQNzUPrXmF5-ITwel0Tk5z0goNlCiHSMKTHQ-KMBqQJ3GNdPwsEuk1PV12fP1I0u8o6c59rlc~ux3RU16iGMCOhMAjfKJ-Xy1b3BhPSzgPPl3RFB9ax9NCCs3l1vlguilOKKrJcnOuQ4xopUGdtVM00R9~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="dark-portrait">
-        </div>
-  </div>
-  <div class="main-body-white">
-        <div class="light-portrait-space">
-            <img src="https://s3-alpha-sig.figma.com/img/4fe6/520f/f163c48cc0ed5968b0cbb257af42c9bd?Expires=1678060800&Signature=OnXZ10q1Taz-TYLmbgqTxTUU5uT5ci41A7EPDJxbpW7y9v4n0H68vx2K67gCV8L0Zt0Lr-T4fCaAtrGgu7eNWzBuUdTcsv5CLwYFBo0KggYutnXwn0Z4yDiMumdW-8r-a5uUrJVTCzUVSox7zdi-TbGfxDw-6VTfPcx7D0eSyvwpUwUqBaSuOOjc~LWSlJvyNk6U8hYfXhrzBt0N-lyuAXozXRKdiNxFlYfBrzC-qRZKShjps46bmfxX0odiXRlCRtiKjbB0qvvx0qc0xK~kLKav7zLx0zBlwHsABmE6I2JXDfqV~kJhWyqHYq2CJ1~JMSaWE4TeJ2vh5r5XdzlZag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="light-portrait">
-        </div>
-        <div class="light-text-container">
-            <div class="aboutme">
-                ABOUT ME 
-            </div>
-            <div class="light-self-description">
-                My name is Anthony Dolphin Dave, I am an<br>engineering student and currently work as a full<br>stack developer.I worked as a product designer<br>during my high school vacation. I love to assist<br>people in learning Tech skills. 
-            </div>
-            <div class="light-button-box">
-                <div><a href="#" class="blue-buttons">Hire Me</a></div>
-    
-                <div><a href="#" class="white-buttons">See My Resume</a></div>
-              </div>
-        </div>
-  </div>
-  <footer class="footer">
-    <div class="dark-logo-space">
-        <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-white.svg" alt="dark-logo">
-    </div>
-    <div class="footer-socials">
-        <div class=fb> 
-            <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/facebook.svg" alt="facebook">
-        </div>
-        <div class=tw>
-       <img src="Vector.png" alt="twitter">
-        </div>
-        <div class=ig>
-            <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/instagram.svg" alt="instagram">
-        </div>
-    </div>
-    <div class="footer-text">
-        @2023 ANTHONY DOLPHIN
-    </div>
+      </nav>
+    </header>
 
-  </footer>
-</body> 
+    <pagebody>
+      <section class="section--dark">
+        <div class="left-sec">
+          <p class="top-paragraph">I'm</p>
+          <h2 class="secondary-heading">Anthony Dolphin,</h2>
+          <p class="bottom-paragraph">
+            A senior developer with expertise in coming up with both rational
+            and creative solutions to challenging web issues.
+          </p>
+          <div><a href="#" class="btn btn--blue">See My Projects</a></div>
+        </div>
+
+        <div class="dark-image-container">
+          <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/images/dark-pic.png" alt="dark-pic" />
+        </div>
+      </section>
+
+      <section class="section--light">
+        <div class="light-image-container">
+          <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/images/light-pic.png" alt="light-pic" />
+        </div>
+
+        <div class="right-sec">
+          <h2 class="secondary-heading">Anthony Dolphin,</h2>
+          <p class="paragraph">
+            My name is Anthony Dolphin Dave, I am an engineering student and
+            currently work as a full stack developer. I worked as a product
+            designer during my high school vacation. I love to assist people in
+            learning Tech skills.
+          </p>
+          <div class="btn-box">
+            <div><a href="#" class="btn btn--blue btn--width">Hire Me</a></div>
+
+            <div><a href="#" class="btn btn--white">See My Resume</a></div>
+          </div>
+        </div>
+      </section>
+    </pagebody>
+
+    <footer class="footer">
+      <div class="logo-container">
+        <img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/logo-white.svg" alt="jplogo" />
+      </div>
+      <div class="footer-socials">
+        <div>
+          <a href=""><img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/facebook.svg" alt="facebook" /></a>
+        </div>
+        <div>
+          <a href=""><img src="Vector.png" alt="twitter" /></a>
+        </div>
+        <div>
+          <a href=""><img src="https://moyinoluwa-10.github.io/thejustprojects-assgn1/assets/svgs/instagram.svg" alt="instagram" /></a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-text">@2023 ANTHONY DOLPHIN</p>
+      </div>
+    </footer>
+  </body>
 </html>
